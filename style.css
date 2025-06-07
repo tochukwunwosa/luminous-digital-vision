@@ -1083,7 +1083,6 @@ nav > ul > li > a {
 }
 
 .faq-container {
-  margin-top: 96px;
   display: flex;
   flex-direction: column;
   gap: 63px;
