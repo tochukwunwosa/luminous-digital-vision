@@ -18,30 +18,32 @@
       <a href="/" class="navbar-logo">
         <img src="./assets/svgs/lumious-logo-43x45.svg" width="43" height="43" />
       </a>
+      <!-- desktop menu -->
       <ul>
-        <li>
-          <a>
-            How it works
-          </a>
-        </li>
-        <li>
-          <a>
-            Pricing
-          </a>
-        </li>
-        <li>
-          <a>
-            FAQs
-          </a>
-        </li>
-        <li>
-          <a>
-            Case Studies
-          </a>
-        </li>
+        <li><a>How it works</a></li>
+        <li><a>Pricing</a></li>
+        <li><a>FAQs</a></li>
+        <li><a>Case Studies</a></li>
       </ul>
       <button type='button' class="nav-btn">Book a Call</button>
+      <!-- toggle menu -->
+      <div class="hamburger">
+        <img src="./assets/svgs/open.svg" width="45" height="45" alt="open menu" class="toggle-menu" id="open-menu">
+        <img src="./assets/svgs/close.svg" width="45" height="45" alt="close menu" class="toggle-menu" id="close-menu" style="display: none;">
+      </div>
+      <!-- mobile menu -->
+      <div class="mobile-menu" >
+        <ul>
+          <li><a>How it works</a></li>
+          <li><a>Pricing</a></li>
+          <li><a>FAQs</a></li>
+          <li><a>Case Studies</a></li>
+          <li><button type='button' class="nav-btn">Book a Call</button></li>
+        </ul>
+        
+      </div>
     </nav>
+    <!-- hero section -->
     <header>
       <!-- hero section -->
       <main class="hero-section">
@@ -89,6 +91,22 @@
       <div class="hero-section__social-proof">
         <p>Trusted by Innovative Companies</p>
         <div class="hero-section__social-proof--items">
+          <div class="hero-section__social-proof--item">
+            <span>The Laundry Depot San Diego</span>
+            <img src="./assets/svgs/star-16x10.svg" width="16" height="10" alt="star svg.">
+          </div>
+          <div class="hero-section__social-proof--item">
+            <span>National Vending Academy</span>
+            <img src="./assets/svgs/star-16x10.svg" width="16" height="10" alt="star svg.">
+          </div>
+          <div class="hero-section__social-proof--item">
+            <span>Sally REID</span>
+            <img src="./assets/svgs/star-16x10.svg" width="16" height="10" alt="star svg.">
+          </div>
+          <div class="hero-section__social-proof--item">
+            <span>Mach 2 Vending</span>
+            <img src="./assets/svgs/star-16x10.svg" width="16" height="10" alt="star svg.">
+          </div>
           <div class="hero-section__social-proof--item">
             <span>The Laundry Depot San Diego</span>
             <img src="./assets/svgs/star-16x10.svg" width="16" height="10" alt="star svg.">
@@ -1404,95 +1422,101 @@
 
     <!-- FAQs -->
     <section class="faq-section">
-      <div class="testimonial-section--title">
+      <div class="faq-section--title">
         <p>Frequently Asked<br />
           <span>Questions</span>
         </p>
       </div>
       <div class="faq-container">
-        <div class="faq">
-          <!-- number -->
-          <div class="rounded-wrapper">
-            <div class="rounded-inner">
-              <span>1</span>
+      <!-- FAQ 1 -->
+      <details class="faq">
+        <summary class="faq-summary">
+            <div class="rounded-wrapper">
+                <div class="rounded-inner"><span>1</span></div>
             </div>
-          </div>
-          <!-- q/a -->
-          <div class="faq-qa-wrapper">
-            <div class="faq-qa-wrapper--inner">
-              <h3>Lorem ipsum dolor sit amet consectetur. Sagittis id.</h3>
+            <div class="faq-content--wrapper">     
+                <div class="faq-content">     
+                    <h3>What services do you specialize in?</h3>
+                    <p class="faq-answer">
+                        We specialize in mobile app development, AI solutions, cloud infrastructure, and strategic digital solutions. Our expertise ranges from MVP development to enterprise-level implementations.
+                    </p>
+                </div>
             </div>
-          </div>
-          <!-- control -->
-          <div class="rounded-wrapper">
-            <div class="rounded-inner plus">
-              <img src="./assets/svgs/cross-28x28.svg" width="28" height="28" alt="Plus svg.">
+            <div class="rounded-wrapper icon-control">
+                <div class="rounded-inner plus">
+                  <img src="./assets/svgs/cross-28x28.svg" width="28" height="28" alt="Cross svg">
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="faq">
-          <!-- number -->
-          <div class="rounded-wrapper">
-            <div class="rounded-inner">
-              <span>2</span>
-            </div>
-          </div>
-          <!-- q/a -->
-          <div class="faq-qa-wrapper">
-            <div class="faq-qa-wrapper--inner">
-              <h3>Lorem ipsum dolor sit amet consectetur. Sagittis id.</h3>
-            </div>
-          </div>
-          <!-- control -->
-          <div class="rounded-wrapper">
-            <div class="rounded-inner plus">
-              <img src="./assets/svgs/cross-28x28.svg" width="28" height="28" alt="Plus svg.">
-            </div>
-          </div>
-        </div>
+        </summary>
+      </details>
 
-        <div class="faq">
-          <!-- number -->
-          <div class="rounded-wrapper">
-            <div class="rounded-inner">
-              <span>3</span>
-            </div>
-          </div>
-          <!-- q/a -->
-          <div class="faq-qa-wrapper">
-            <div class="faq-qa-wrapper--inner">
-              <h3>Lorem ipsum dolor sit amet consectetur. Sagittis id.</h3>
-            </div>
-          </div>
-          <!-- control -->
-          <div class="rounded-wrapper">
-            <div class="rounded-inner plus">
-              <img src="./assets/svgs/cross-28x28.svg" width="28" height="28" alt="Plus svg.">
-            </div>
-          </div>
-        </div>
-        <div class="faq">
-          <!-- number -->
-          <div class="rounded-wrapper">
-            <div class="rounded-inner">
-              <span>4</span>
-            </div>
-          </div>
-          <!-- q/a -->
-          <div class="faq-qa-wrapper">
-            <div class="faq-qa-wrapper--inner">
-              <h3>Lorem ipsum dolor sit amet consectetur. Sagittis id.</h3>
-            </div>
-          </div>
-          <!-- control -->
-          <div class="rounded-wrapper">
-            <div class="rounded-inner plus">
-              <img src="./assets/svgs/cross-28x28.svg" width="28" height="28" alt="Plus svg.">
-            </div>
-          </div>
-        </div>
+      <details class="faq">
+          <summary class="faq-summary">
+              <div class="rounded-wrapper">
+                  <div class="rounded-inner"><span>2</span></div>
+              </div>
+              <div class="faq-content--wrapper">     
+                  <div class="faq-content">     
+                      <h3>How long does a typical project take?</h3>
+                      <p class="faq-answer">
+                          Project timelines vary depending on complexity. Simple apps take 2-3 months, while enterprise solutions can take 6-12 months. We provide detailed timelines during our initial consultation.
+                      </p>
+                  </div>
+              </div>
+              <div class="rounded-wrapper icon-control">
+                  <div class="rounded-inner plus">
+                    <img src="./assets/svgs/cross-28x28.svg" width="28" height="28" alt="Cross svg">
+                  </div>
+              </div>
+          </summary>
+      </details>
+
+      <details class="faq">
+          <summary class="faq-summary">
+              <div class="rounded-wrapper">
+                  <div class="rounded-inner"><span>3</span></div>
+              </div>
+              <div class="faq-content--wrapper">     
+                  <div class="faq-content">     
+                      <h3>Do you provide ongoing support?</h3>
+                      <p class="faq-answer">
+                          Yes, we offer comprehensive post-launch support including maintenance, updates, scaling assistance, and 24/7 technical support for all our enterprise clients.
+                      </p>
+                  </div>
+              </div>
+              <div class="rounded-wrapper icon-control">
+                  <div class="rounded-inner plus">
+                    <img src="./assets/svgs/cross-28x28.svg" width="28" height="28" alt="Cross svg">
+                  </div>
+              </div>
+          </summary>
+      </details>
+
+      <details class="faq">
+          <summary class="faq-summary">
+              <div class="rounded-wrapper">
+                  <div class="rounded-inner"><span>4</span></div>
+              </div>
+              <div class="faq-content--wrapper">     
+                  <div class="faq-content">     
+                      <h3>Do you provide ongoing support?</h3>
+                      <p class="faq-answer">
+                          Yes, we offer comprehensive post-launch support including maintenance, updates, scaling assistance, and 24/7 technical support for all our enterprise clients.
+                      </p>
+                  </div>
+              </div>
+              <div class="rounded-wrapper icon-control">
+                  <div class="rounded-inner plus">
+                    <img src="./assets/svgs/cross-28x28.svg" width="28" height="28" alt="Cross svg">
+                  </div>
+              </div>
+          </summary>
+      </details>
+
+      <div class="faq-section--button-wrapper">
+
+        <button type='button' class="show-more faq-section--button">Show more</button>
       </div>
-      <button type='button' class="show-more">Show more</button>
     </section>
 
     <!-- footer -->
@@ -1540,6 +1564,7 @@
         </div>
       </div>
     </footer>
+    <script src="./script.js"></script>
   </body>
 
 </html>
